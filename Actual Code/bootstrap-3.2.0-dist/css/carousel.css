@@ -21,6 +21,23 @@ body {
   z-index: 20;
 }
 
+/* Change Active Nap pills*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: transparent;
+background-color: transparent;
+/*position: relative;
+top: 25px; */
+}
+
+/* Move Nav pills to the right and down */
+.nav-pills {
+color: transparent;
+background-color: transparent;
+position: relative;
+top: 40px;
+float: right;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
